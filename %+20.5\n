@@ -1,0 +1,16 @@
+#include <stdio.h>
+//int main()
+//{
+//	int a = 10;
+//	float b = 3.333;
+//	printf("%+20.5f\n", a / b);
+//	return 0;
+//}
+
+int main()
+{
+	int a = 10;
+	int b = 3;
+	printf("%+20.d\n", a % b);
+	return 0;
+}
